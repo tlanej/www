@@ -1,0 +1,76 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav {
+    background: #333;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background: #575757;
+}
+
+/* Sections Styling */
+section {
+    padding: 20px;
+}
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Projects Styling */
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Experience and Education Styling */
+.job, .school {
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer Styling */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
